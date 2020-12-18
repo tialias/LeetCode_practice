@@ -25,6 +25,7 @@ class Solution(object):
         """
         :type s: str
         :rtype: int
+        "pwkkew"
         """
         s1 = []  # 定义一个空列表，每次循环处理的最长子串都保存
         tmp = []  # 定义一个空列表， 保存每次循环的后的子串
@@ -33,7 +34,7 @@ class Solution(object):
                 tmp.append(i)
             else:
                 index = tmp.index(i)
-                tmp = tmp[index + 1 :]
+                tmp = tmp[(index + 1):]
                 tmp.append(i)
             if len(tmp) > len(s1):
                 s1 = tmp
