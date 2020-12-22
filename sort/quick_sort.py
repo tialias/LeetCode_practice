@@ -19,3 +19,5 @@ random.shuffle(a)
 
 print(a)
 print(quicjSort(a))
+
+
